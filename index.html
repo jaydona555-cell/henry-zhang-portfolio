@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Henry Zhang — Senior IT Specialist & Backend Systems Architect</title>
+  <meta name="description" content="Henry Zhang (Haitao Zhang) — Senior IT Specialist and Backend Systems Architect with 15+ years of experience building cloud, AI, and IoT solutions. Based in Redmond, WA." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%233b82f6'/><text x='50' y='68' font-size='52' font-family='Arial' font-weight='bold' fill='white' text-anchor='middle'>H</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Main navigation">
+      <a href="#top" class="brand" aria-label="Henry Zhang — home">
+        <span class="brand-mark">HZ</span>
+        <span class="brand-name">Henry&nbsp;Zhang</span>
+      </a>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="icon-btn" id="theme-toggle" aria-label="Toggle color theme" title="Toggle theme">
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+            <circle cx="12" cy="12" r="4.5" />
+            <path d="M12 2.5v2.5M12 19v2.5M2.5 12H5M19 12h2.5M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M19.1 4.9l-1.8 1.8M6.7 17.3l-1.8 1.8" />
+          </svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.8A8.5 8.5 0 1 1 11.2 3a6.6 6.6 0 0 0 9.8 9.8Z" />
+          </svg>
+        </button>
+        <button class="icon-btn menu-btn" id="menu-btn" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+            <path d="M4 7h16M4 12h16M4 17h16" />
+          </svg>
+        </button>
+        <a href="https://www.linkedin.com/in/haitaozhang/" target="_blank" rel="noopener" class="btn btn-primary nav-cta">Let's connect</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="pulse-dot"></span> Available for new opportunities</p>
+          <h1 class="hero-title">Hi, I'm <span class="gradient-text">Henry Zhang</span>.</h1>
+          <p class="hero-subtitle">Senior IT Specialist &amp; Backend Systems Architect with <strong>15+ years</strong> of experience designing cloud, AI, and IoT systems.</p>
+          <p class="hero-desc">I turn complex business problems into reliable, scalable software — from .NET microservices and AWS cloud infrastructure to AI-powered file analysis with RAG pipelines.</p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View my work</a>
+            <a href="#contact" class="btn btn-ghost">Get in touch</a>
+          </div>
+          <div class="hero-meta">
+            <span class="meta-chip">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+              Redmond, WA
+            </span>
+            <span class="meta-chip">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 3 7v10l9 5 9-5V7l-9-5Z"/><path d="M3 7l9 5 9-5M12 12v10"/></svg>
+              Backend · Cloud · AI
+            </span>
+          </div>
+        </div>
+        <div class="hero-photo-wrap">
+          <div class="hero-photo-glow"></div>
+          <img class="hero-photo" src="assets/profile.png" alt="Portrait of Henry Zhang" width="400" height="400" />
+          <div class="photo-badge">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 3 7v10l9 5 9-5V7l-9-5Z"/><path d="M3 7l9 5 9-5M12 12v10"/></svg>
+            <div><strong>15+ years</strong><span>in software engineering</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container">
+        <p class="section-label">About me</p>
+        <h2 class="section-title">Engineer by trade. Problem-solver at heart.</h2>
+        <div class="about-grid">
+          <div class="card about-text">
+            <p>For over 15 years I've built and maintained the systems that keep businesses running — designing backend architectures, automating IoT platforms, and most recently combining <strong>AWS cloud services with OpenAI's API</strong> to build intelligent file-analysis applications.</p>
+            <p>I care about the details that matter: clean REST APIs, secure authentication, reliable data pipelines, and code that the next engineer can pick up and understand.</p>
+            <p class="about-quote">"Good software isn't just built — it's architected, tested, and maintained with care."</p>
+          </div>
+          <div class="card about-facts">
+            <h3>Quick facts</h3>
+            <ul class="fact-list">
+              <li><span class="fact-key">Based in</span><span class="fact-value">Redmond, Washington</span></li>
+              <li><span class="fact-key">Experience</span><span class="fact-value">15+ years in IT &amp; backend systems</span></li>
+              <li><span class="fact-key">Education</span><span class="fact-value">Western Michigan University</span></li>
+              <li><span class="fact-key">Current role</span><span class="fact-value">Senior IT Specialist @ BeyondSoft</span></li>
+              <li><span class="fact-key">Languages</span><span class="fact-value">English · Chinese (native)</span></li>
+              <li><span class="fact-key">Open to</span><span class="fact-value">Full-time &amp; consulting roles</span></li>
+            </ul>
+            <div class="about-cta">
+              <a href="https://www.linkedin.com/in/haitaozhang/" target="_blank" rel="noopener" class="btn btn-primary">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45Z"/></svg>
+                LinkedIn profile
+              </a>
+              <a href="https://github.com/htzhang2" target="_blank" rel="noopener" class="btn btn-ghost">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5A11.5 11.5 0 0 0 .5 12a11.5 11.5 0 0 0 7.86 10.92c.58.1.79-.25.79-.56v-2c-3.2.7-3.87-1.54-3.87-1.54-.53-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.78 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.8 1.19 1.83 1.19 3.09 0 4.41-2.7 5.38-5.26 5.66.41.36.78 1.06.78 2.14v3.17c0 .31.2.67.8.56A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5Z"/></svg>
+                GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section section-alt" id="experience">
+      <div class="container">
+        <p class="section-label">Career</p>
+        <h2 class="section-title">Experience</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="card timeline-card">
+              <div class="timeline-head">
+                <div>
+                  <h3>Senior IT Specialist &amp; Backend Systems Architect</h3>
+                  <p class="timeline-company">BeyondSoft <span class="timeline-loc">— Redmond, WA</span></p>
+                </div>
+                <span class="timeline-date">Present</span>
+              </div>
+              <p>Designing and maintaining backend systems and cloud infrastructure, leading technical initiatives across the Greater Seattle area.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="card timeline-card">
+              <div class="timeline-head">
+                <div>
+                  <h3>Software Engineer</h3>
+                  <p class="timeline-company">CARIAD <span class="timeline-loc">— Greater Seattle Area</span></p>
+                </div>
+                <span class="timeline-date">Prior role</span>
+              </div>
+              <p>Engineering role at CARIAD, the Volkswagen Group's automotive software company, working on next-generation vehicle software platforms.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="card timeline-card">
+              <div class="timeline-head">
+                <div>
+                  <h3>Software Development Engineer II (SDE II)</h3>
+                  <p class="timeline-company">Expedia Group <span class="timeline-loc">— Greater Seattle Area</span></p>
+                </div>
+                <span class="timeline-date">Prior role</span>
+              </div>
+              <p>Software development engineering on Expedia Group's travel technology platforms, building and maintaining backend systems at scale.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="card timeline-card">
+              <div class="timeline-head">
+                <div>
+                  <h3>IoT Test Automation Engineer</h3>
+                  <p class="timeline-company">AllSeen Alliance <span class="timeline-loc">— Greater Seattle Area</span></p>
+                </div>
+                <span class="timeline-date">2011 – 2015</span>
+              </div>
+              <p>Built test automation frameworks for the AllJoyn IoT platform across multiple operating systems and device platforms, enabling large-scale interoperability validation.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="card timeline-card">
+              <div class="timeline-head">
+                <div>
+                  <h3>B.S. — Western Michigan University</h3>
+                  <p class="timeline-company">Kalamazoo, Michigan</p>
+                </div>
+                <span class="timeline-date">Grad.</span>
+              </div>
+              <p>Formal education in computer science and engineering, where the foundation in systems thinking was built.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+      <div class="container">
+        <p class="section-label">Selected work</p>
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+          <article class="card project-card">
+            <div class="project-top">
+              <span class="project-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m7 15 4-6 4 3 5-8"/></svg>
+              </span>
+              <span class="project-year">2025</span>
+            </div>
+            <h3>AWS File Analyzer</h3>
+            <p>A full-stack application that uploads local files to AWS S3, analyzes images and text with the OpenAI API, and returns structured insights — all behind JWT-secured authentication.</p>
+            <ul class="tech-tags">
+              <li>.NET 8</li><li>React</li><li>OpenAI API</li><li>RAG</li><li>AWS S3</li><li>Azure SQL</li><li>JWT</li>
+            </ul>
+            <a href="https://github.com/htzhang2/aws-file-analyzer" target="_blank" rel="noopener" class="project-link">
+              View on GitHub
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+          </article>
+
+          <article class="card project-card">
+            <div class="project-top">
+              <span class="project-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0-6 6c0 4 3 6.5 3 9h6c0-2.5 3-5 3-9a6 6 0 0 0-6-6Z"/><path d="M10 21h4"/></svg>
+              </span>
+              <span class="project-year">2025</span>
+            </div>
+            <h3>AI File Analyzer</h3>
+            <p>Imagine your desktop full of old photos and text files — upload them to S3, and OpenAI turns them into structured summaries you can read or <em>listen</em> to as audio. Built with a .NET 8 API and React UI.</p>
+            <ul class="tech-tags">
+              <li>.NET 8</li><li>React</li><li>AWS S3</li><li>OpenAI API</li><li>Azure SQL</li><li>Audio TTS</li>
+            </ul>
+            <a href="https://www.linkedin.com/in/haitaozhang/" target="_blank" rel="noopener" class="project-link">
+              Learn more
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+          </article>
+
+          <article class="card project-card">
+            <div class="project-top">
+              <span class="project-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 2 7l10 5 10-5-10-5Z"/><path d="m2 17 10 5 10-5"/><path d="m2 12 10 5 10-5"/></svg>
+              </span>
+              <span class="project-year">2011 – 2015</span>
+            </div>
+            <h3>AllJoyn IoT Test Automation</h3>
+            <p>A cross-platform test automation framework for the AllSeen Alliance's IoT platform, validating device interoperability across multiple operating systems and hardware platforms.</p>
+            <ul class="tech-tags">
+              <li>IoT</li><li>AllJoyn</li><li>Test Automation</li><li>Cross-platform</li>
+            </ul>
+            <a href="https://allseenalliance.org" target="_blank" rel="noopener" class="project-link">
+              About AllSeen Alliance
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <p class="section-label">Expertise</p>
+        <h2 class="section-title">Skills &amp; Technologies</h2>
+        <div class="skills-grid">
+          <div class="card skill-card">
+            <h3>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m8 6-6 6 6 6M16 6l6 6-6 6"/></svg>
+              Backend &amp; Architecture
+            </h3>
+            <ul>
+              <li>.NET 8 / C#</li>
+              <li>RESTful APIs &amp; Microservices</li>
+              <li>System Architecture &amp; Design</li>
+              <li>JWT Authentication &amp; Security</li>
+            </ul>
+          </div>
+          <div class="card skill-card">
+            <h3>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M5 8h14M5 16h14M3 8c0 2.2 4 3.5 9 3.5S21 10.2 21 8M3 16c0 2.2 4 3.5 9 3.5s9-1.3 9-3.5"/></svg>
+              Cloud &amp; Data
+            </h3>
+            <ul>
+              <li>AWS (S3, Lambda, IAM)</li>
+              <li>Azure SQL Database</li>
+              <li>Cloud Storage &amp; Presigned URLs</li>
+              <li>Data Pipelines &amp; RAG</li>
+            </ul>
+          </div>
+          <div class="card skill-card">
+            <h3>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2Z"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10Z"/></svg>
+              AI &amp; Frontend
+            </h3>
+            <ul>
+              <li>OpenAI API Integration</li>
+              <li>RAG &amp; AI Insights</li>
+              <li>React / TypeScript</li>
+              <li>Audio Summaries (TTS)</li>
+            </ul>
+          </div>
+          <div class="card skill-card">
+            <h3>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 2 7l10 5 10-5-10-5Z"/><path d="m2 17 10 5 10-5"/><path d="m2 12 10 5 10-5"/></svg>
+              IoT &amp; Platforms
+            </h3>
+            <ul>
+              <li>AllJoyn / AllSeen Alliance</li>
+              <li>Cross-platform Test Automation</li>
+              <li>Device Interoperability</li>
+              <li>CI-Friendly Frameworks</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="card contact-card">
+          <div class="contact-copy">
+            <p class="section-label">Contact</p>
+            <h2 class="section-title">Let's build something together.</h2>
+            <p>Whether you're hiring, exploring a collaboration, or just want to talk cloud, AI, and backend architecture — I'd love to hear from you.</p>
+            <div class="contact-actions">
+              <a href="https://www.linkedin.com/in/haitaozhang/" target="_blank" rel="noopener" class="btn btn-primary btn-lg">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45Z"/></svg>
+                Connect on LinkedIn
+              </a>
+              <a href="https://github.com/htzhang2" target="_blank" rel="noopener" class="btn btn-ghost btn-lg">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5A11.5 11.5 0 0 0 .5 12a11.5 11.5 0 0 0 7.86 10.92c.58.1.79-.25.79-.56v-2c-3.2.7-3.87-1.54-3.87-1.54-.53-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.78 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.8 1.19 1.83 1.19 3.09 0 4.41-2.7 5.38-5.26 5.66.41.36.78 1.06.78 2.14v3.17c0 .31.2.67.8.56A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5Z"/></svg>
+                GitHub
+              </a>
+            </div>
+          </div>
+          <div class="contact-card-side">
+            <img src="assets/profile.png" alt="" class="contact-photo" loading="lazy" width="160" height="160" />
+            <p class="contact-note">"Looking forward to connecting."</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year">2026</span> Henry Zhang. Built with care in Redmond, WA.</p>
+      <p class="footer-love">Made with <span aria-hidden="true">❤️</span><span class="sr-only">love</span> for Dad by the Zhang family.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
