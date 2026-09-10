@@ -607,6 +607,30 @@ ul {
   font-size: 0.95rem;
 }
 
+.timeline-bullets {
+  margin-top: 10px;
+}
+
+.timeline-bullets li {
+  position: relative;
+  padding-left: 16px;
+  margin-top: 6px;
+  color: var(--text-muted);
+  font-size: 0.93rem;
+}
+
+.timeline-bullets li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 9px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent);
+  opacity: 0.7;
+}
+
 /* ---------- Projects ---------- */
 .projects-grid {
   display: grid;
